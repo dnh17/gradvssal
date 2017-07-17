@@ -8,4 +8,4 @@ from django.views.generic.detail import DetailView
 from .models import *
 
 def HomeView(request):
-    template_name = 'HealthNetApp/login.html'
+    template_name = 'gradvsSalApp/home.html'
