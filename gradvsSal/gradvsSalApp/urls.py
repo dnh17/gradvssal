@@ -21,4 +21,5 @@ from . import views
 app_name = 'gradvsSalApp'
 urlpatterns = [
 url(r'^home/', views.HomeView, name='home'),
+url(r'^data/', views.DataView, name='data')
 	]

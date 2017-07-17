@@ -23,3 +23,7 @@ def HomeView(request):
     #return HttpResponse("Hello, world. You're at the polls index.")
     template_name = 'home.html'
     return render(request, template_name)
+
+def DataView(request):
+    template_name = 'data.html'
+    return render(request, template_name)
