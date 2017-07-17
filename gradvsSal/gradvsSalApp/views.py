@@ -20,5 +20,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from .models import *
 
 def HomeView(request):
-    template_name = 'gradvsSalApp/home.html'
+    #return HttpResponse("Hello, world. You're at the polls index.")
+    template_name = 'home.html'
     return render(request, template_name)
